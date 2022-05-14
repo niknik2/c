@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    
+    a=1;
+    b=12;
+    c=123;
+    d=1234;
+    e=12345;
+    f=" ";
+    
+    printf("*\n");
+    printf("%8d %-8d\n",a,a);
+    printf("%8d %-8d\n",b,b);
+    printf("%8d %-8d\n",c,c);
+    printf("%8d %-8d\n",d,d);
+    printf("%8d %-8d\n",e,e);
+    
+return 0;    
+}
